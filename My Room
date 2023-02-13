@@ -94,6 +94,7 @@
         position:fixed;
         width:150px;
         float:right;
+        background:white;
         right:5px;
         height:520px;
         text-align:center;
@@ -133,14 +134,12 @@
                         <tbody>
                             <tr>
                                 <td style="width:300px;">
-                                    <text style="background: linear-gradient(to right, #f393fe, #ce93ff, #909cff, #8fd4ff, #90ffef, #93ff92, #e0fe93, #fde091, #ffba91, #ff939c, #fe92dc);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight:bold;font-size:20px;">Ha•ji•me-chan's Room♪</text> 
                                     <div style="text-align:center;height:180px;padding:5px;overflow-y:auto;">
-                                    Written since 2/12/2003                 
-                                        <p>This is my web diary.<br>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. <p>Lorem ipsum may be used as a placeholder before final copy is available.                       <br><img src="https://64.media.tumblr.com/7f47f60afb3a416c2a3c6464dbbbe4f8/tumblr_o7el2e7Qzw1v9twgko1_75sq.gif">
+                                    
                                     </div>
                                 </td>
                                 <td>
-                                    <br><img src="https://64.media.tumblr.com/aa65ad499235864647857fc7c558f3e8/9a6e43651442b5bc-b3/s540x810/47f961be4ce097b5e736119b994757005fda45d0.jpg" style="width:200px;border-radius:20px;">
+                                    <br><img src="/" style="border:1px solid black;width:200px;border-radius:20px;">
                                 </td>
                             </tr>
                         </tbody>
@@ -159,11 +158,7 @@
                                         <tr>
                                             <td height="160px;">
                                                 <div id="news-text-inner"  style="margin-top:-15px;height:215px;border:5px ridge white;background:white;text-align:left;"> 
-                                                    <text style="background: linear-gradient(to right, #f393fe, #ce93ff, #909cff, #8fd4ff, #90ffef, #93ff92, #e0fe93, #fde091, #ffba91, #ff939c, #fe92dc);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight:bold;font-size:20px;">Re•ce•nt Changes♪</text>
-                                                    <p><img src="https://64.media.tumblr.com/bb73d65874ee6a6f1a11dc03e71acdc2/cd6a403d0b70aafb-6f/s75x75_c1/f2f40b654713fe583a584e5018de983c91e5e050.gif"> <a href="/">顔文字 ♡( ◡‿◡ ) 2/14/03</a>
-                                                    <p><img src="https://64.media.tumblr.com/bb73d65874ee6a6f1a11dc03e71acdc2/cd6a403d0b70aafb-6f/s75x75_c1/f2f40b654713fe583a584e5018de983c91e5e050.gif"> <a href="/">顔文字 (´ ∀ ` *) 2/12/03</a>
-                                                    <p><img src="https://64.media.tumblr.com/bb73d65874ee6a6f1a11dc03e71acdc2/cd6a403d0b70aafb-6f/s75x75_c1/f2f40b654713fe583a584e5018de983c91e5e050.gif"> <a href="/">顔文字 (⌒_⌒;) 1/2/03</a>   
-                                                    <p><img src="https://64.media.tumblr.com/bb73d65874ee6a6f1a11dc03e71acdc2/cd6a403d0b70aafb-6f/s75x75_c1/f2f40b654713fe583a584e5018de983c91e5e050.gif"> <a href="/">顔文字 (눈_눈) 12/4/02</a>
+                                                    
                                                 </div>
                                             </td>
                                         </tr>
@@ -178,21 +173,8 @@
             </div>    
                 <!-- - - - - - - - - - - -->
                 <div id="section-3">
-                    <img src="https://64.media.tumblr.com/ff0e1ea57e63e11a9c92114083e1bb59/9d28ebd0b8e4ac48-a4/s250x400/71108e1d7cbda4cba03a0bf796e47001bcbded41.png" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/367afaa153979866fcae439728662b52/9d28ebd0b8e4ac48-52/s250x400/6828328560cfdf7d70b2c356483d80ac41a3998c.png" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/1167452ebcce8450630ea47e20acf203/9d28ebd0b8e4ac48-62/s250x400/adf54cbeba6618379b4ac1ef39ccb0d6caab9c6f.png" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/4081a4735fcb3a4d91838c2979e2436f/9d28ebd0b8e4ac48-b2/s250x400/1b53a8f4321c29115b54a01950a7edd32e83fc39.png" style="max-width:100%;">  
-                    <img src="https://64.media.tumblr.com/2e0c569aafc6e89d4fbaf997ff8b4eba/9d28ebd0b8e4ac48-8a/s250x400/58af51427b2e865011ad284cd4ced7af1bb23a74.gif" style="max-width:100%;">  
-                    <img src="https://64.media.tumblr.com/682f4bd782f5c724c1f8098420fd8922/9a21d5abb3214798-46/s250x400/bc89bcc5a7b0e63b3ea65c8ab5ef6054e185c0d7.gif" style="max-width:100%;">   
-                    <img src="https://64.media.tumblr.com/495cea42925c8ed991fb58127a48fc2e/9a21d5abb3214798-21/s400x600/732a966c12e7acc9f5b6c409302341c613a097f4.jpg" style="max-width:100%;">    
-                    <img src="https://64.media.tumblr.com/511eaa443e31b6d88014b7004fb8a666/3d127e2d27eae5e9-87/s250x400/4c155f62906ed546f7303cea250f96b84726b3c8.gif" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/cbbb687a36a9f18a3592c1168e81ee1b/439c305fcea234be-4d/s250x400/83da91e37112aa3b99738759b42cbe8299d5e45c.gif" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/37bffc723a61aa076ff830c87a47e844/439c305fcea234be-33/s250x400/bd8ed083e6593bd3cd06718ddd31aabc67395027.gif" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/3a86f98c9cd55ea7fc04d61241c7736c/439c305fcea234be-b5/s250x400/b1c3f4a1e5f6496a7f62eec948f17ac2b00c42af.gif" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/8030759a23a7b39a5ec624e83ab423d1/439c305fcea234be-3e/s250x400/35a007b2935c3ff9993e82273d01ffdf2a5c7ca9.gif" style="max-width:100%;">  
-                    <img src="https://web.archive.org/web/20020219142844im_/https://www.broccoli.co.jp/dejiko/image/puchikobeya_bn.gif" style="max-width:100%;">
-                    <img src="https://web.archive.org/web/20020203045103im_/https://www.broccoli.co.jp/dejiko/radio/image/bnr_deji.gif" style="max-width:100%;">
-                    <img src="https://64.media.tumblr.com/c64558bdc607aecceefd99cdfc4ed9ac/09a8e5c3853a3611-5f/s500x750/ef9f606223466ee0d806c673ebc0bd0139b1d2f2.gif" style="max-width:100%;">                     
+                    <p><img src="https://shenanigans.neocities.org/files/shen-pink.png" style="max-width:100%"> 
+                    <br>You can replace this if you want it's just so you know how to use images
                 </div>
             </div>
         </body>
