@@ -1,0 +1,217 @@
+    <!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8" />
+    <!-- 
+    
+        // "Bliss" header template created by Mochizuki Hajime.
+        // windchime.neocities.org for more and to support me!
+        
+        // Learn how to create your own template from the ground up. . . 
+            ==> windchime.neocities.org/fountain/air/guide <==
+            
+        // windchime.neocities.org/fountain/air/deco for free resources 
+            and further information to help to decorate your page.
+    
+    
+        ================================================================
+        
+             // Properties used in this base, and what they mean //
+             
+    
+            // width: the width of an element.
+            // position: the positioning of the element. 
+                    ==> (w3schools.com/css/css_positioning.asp)
+            // border: the border around an element. 
+                    ==> (w3schools.com/css/css_border.asp)
+            // margin-top: the distance of an element from the top of the page.
+            // background-image: the background of an element.
+            // font-family: the font used on the page.
+                    ==> (https://www.w3schools.com/css/css_font.asp, custom fonts)
+            // font-size: size of the font on the page.
+            // color: text color.
+            // height: the height of an element. 
+            // margin: the space around an element. 
+                    ==> 0 (top) 0 (right) 0 (bottom) 0 (left)
+            // text-align: specifies where the text is centered. 
+                    ==> left, center, right. Remove and text will justify.
+            // background: the background color of an element. 
+                    ==> Can specificy background-image or background-color
+            // padding: the space inside the element.        
+            
+        ================================================================
+        
+                       // Websites that you may find useful // 
+                       
+            // https://www.w3schools.com/ 
+            // https://learnlayout.com/
+            // https://lilaclynx.net/responsive.html
+            // https://stackoverflow.com/
+            // https://codepen.io/
+            // https://www.10bestdesign.com/dirtymarkup/
+            // https://css-tricks.com/
+            // https://www.cssportal.com/
+            // https://www.codecademy.com/
+            
+        ================================================================            
+    
+        // Remember that you can change, remove, add, or adjust anything on this template.
+        // Credit is appreciated, but not required.
+        
+        // Contact me on my website if you are have any issues or questions.
+        
+    
+    -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/">
+    <!-- replace "/" above with the url to your image, that is your website favicon -->
+    
+    <style type="text/css">
+    
+    
+    
+    /******************************
+    
+             DOCUMENT BODY
+    
+    ******************************/
+    
+    body{        
+        background-image:url('https://64.media.tumblr.com/9c6669eba2a2baa025a9e87046d2c06f/tumblr_nk03vgtl9l1u289dqo3_250.png');
+        font-family:ms gothic;
+        font-size:18px;
+    }    
+    
+    /* . . . . . . . . . . . . . */
+    
+    a{
+        color:blue;
+    }
+    
+    
+    /******************************
+    
+               CONTAINER
+    
+    ******************************/
+    
+    #container{
+        width:650px;
+        margin:15px 0 15px 0;
+        /* These 3 center the container, which therefore centers all of the content on the page. */
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }   
+
+    
+    
+    /******************************
+    
+                 HEADER
+    
+    ******************************/    
+    
+    #header{
+        height:175px;
+        border:1px solid blue;
+        margin:0 0 10px 0;
+        
+    }
+    
+    /* . . . . . . . . . . . . . */
+    
+    #header_img{
+        /* "100%" specifies that the image will be as big as possible without overflowing outside the element. */
+        width:100%;
+        height:100%;
+        /* object-fit:fill makes the image fit into the header without overflowing. background:position makes it where you can easily adjust the position of your header. the "50%" represents horizontal, and the "30%" represents vertical. You can change these as needed when inserting your own image. I recommend going slowly - i.e. changing "30%" to "35%" */
+        object-fit: fill;
+        background-position: 50% 30%; 
+        background-image:url('https://64.media.tumblr.com/526124f8a638b719d95a55e527b09be5/0594f8b711bfe6e2-e7/s1280x1920/a640f6e70a90f4a99500f43a068259b899162bec.jpg');
+    }    
+    
+    
+    /******************************
+    
+                 LINKS
+    
+    ******************************/    
+    
+    #links{
+        border:1px solid blue;
+        margin:0 0 10px 0;
+        text-align:center;
+        background:white;
+        padding:5px;
+    }
+
+
+    /******************************
+    
+                CONTENT
+    
+    ******************************/  
+    
+    #content{
+        border:1px solid blue;
+        background:white;
+        padding:10px;
+        margin:0 0 10px 0;
+        /* if you want the content to get taller endlessly, leave it as is. But if you want it to remain a specific height and start scrolling, include these properties outisde of this grey area:
+        max-height:250px (can be changed to whatever number you like); 
+        overflow-y:auto; */
+    }
+    
+
+    /******************************
+    
+                 FOOTER
+    
+    ******************************/     
+    
+    #footer{
+        border:1px solid blue;
+        background:white;
+        text-align:center;
+        padding:5px;
+    }
+    
+    {CustomCss}
+    </style>
+    </head>
+    <body>
+        <div id="container">
+            <!-- . . header . . -->
+            <div id="header">
+                <div id="header_img">
+                </div>
+            </div>
+            <!-- . . links . . -->
+            <div id="links">
+                <a href="/">Link 1</a> | <a href="/">Link 2</a> | <a href="/">Link 3</a> | <a href="/">Link 4</a> | <a href="/">Link 5</a>
+            </div> 
+            <!-- . . links . . -->
+            <div id="content">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="padding-right:10px;">
+                                <img src="https://i.imgur.com/uMXx80Z.gif" style="width:200px;display:block">
+                            </td>
+                            <td>
+                                In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><center>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+                    <p><a href="/">Install this template for your site</a>, or <a href="/">learn to build your own!</a>
+                </center>
+            </div>
+            <div id="footer">
+                <a href="/">About</a> | <a href="/">Contact</a> | <a href="/">Site Map</a>
+            </div>            
+        </div>
+    </body>
+    </html>  
