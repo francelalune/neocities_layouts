@@ -1,0 +1,255 @@
+    <!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8" />
+    <!-- 
+    
+    // "Dandelion" Neocities template created by Mochizuki Hajime.
+        // windchime.neocities.org for more and to support me!
+        
+        // windchime.neocities.org/fountain/air/deco for free resources 
+            and further information to help to decorate your page.
+
+    // Created 4/28/2023, last updated 4/28/2023
+    
+        ================================================================
+        
+             // Properties used in this base, and what they mean //
+             
+            // width: the width of an element.
+            // position: the positioning of the element. 
+                    ==> (w3schools.com/css/css_positioning.asp)
+            // border: the border around an element. 
+                    ==> (w3schools.com/css/css_border.asp)
+            // margin-top: the distance of an element from the top of the page.
+            // background-image: the background of an element.
+            // font-family: the font used on the page.
+                    ==> (https://www.w3schools.com/css/css_font.asp, custom fonts)
+            // font-size: size of the font on the page.
+            // text-decoration: the style of links / text.
+                    ==> (https://www.w3schools.com/cssref/pr_text_text-decoration.php)
+            // color: text color.
+            // height: the height of an element. 
+            // margin: the space around an element. 
+                    ==> 0 (top) 0 (right) 0 (bottom) 0 (left)
+            // text-align: specifies where the text is centered. 
+                    ==> left, center, right. Remove and text will justify.
+            // background: the background color of an element. 
+                    ==> Can specificy background-image or background-color
+            // padding: the space inside the element.     
+            // object-fit: how an element is resized in regards to its container
+                    ==> (https://www.w3schools.com/css/css3_object-fit.asp)
+            //         
+    
+        ================================================================
+
+
+    -->
+    <title>Dandelion by Hajime</title>    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    
+    <link rel="shortcut icon" href="/">
+    <!-- replace "/" above with the url to your image, that is your website favicon -->
+    
+    <style type="text/css">
+    
+    /********************************
+    
+              DOCUMENT BODY
+    
+    ********************************/
+    
+    body{
+        background-image:url('https://64.media.tumblr.com/28128138faee546730445b8991bcb96e/tumblr_ocsi33sNxV1v9twgko2_100.gif');
+        font-size:18px;
+        font-family:ms gothic;
+        color:black;
+    }
+    
+    /* . . . . . . . . . . . . . */
+    
+    a{
+        color:#2cca55;
+        text-decoration:underline;
+    }
+    
+    /* . . . . . . . . . . . . . */    
+    
+    ::-webkit-scrollbar {
+        /* the entire scrollbar */
+        width: 15px;
+        height: 10px;}
+
+    /* . . . . . . . . . . . . . */
+    
+    ::-webkit-scrollbar-thumb:vertical{
+        /* scrollbar thumb */
+        background:#ffc37d;}
+
+    /* . . . . . . . . . . . . . */
+    
+    ::-webkit-scrollbar-track {
+        /* scrollbar background */
+        background-color:#fffef6;}
+
+    /* . . . . . . . . . . . . . */    
+    
+    ::-webkit-scrollbar-button:vertical:increment {
+        /* scrollbar up / down buttons */
+        width: 14px;
+        height: 16px;
+        background-color:#ffc37d;}
+
+    /* . . . . . . . . . . . . . */
+    
+    ::-webkit-scrollbar-button:vertical:decrement {
+        /* scrollbar up / down buttons */
+        background-color:#ffc37d;
+        width: 14px;
+        height: 16px;}    
+            
+    
+    /********************************
+    
+                CONTAINER
+    
+    ********************************/
+    
+    #container{
+        /* the container is what positions all of your content */
+        position:absolute;
+        width:900px;
+        height:500px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top:30px;
+    } 
+    
+    /********************************
+    
+                  HEADER
+    
+    ********************************/        
+    
+    #header{
+        border:2px white ridge;
+        border-top-left-radius:30px;
+        border-top-right-radius:30px;
+        height:250px;
+        /* object-fit:fill makes the image fit into the header without overflowing. background:position makes it where you can easily adjust the position of your header. the "-30%" represents horizontal, and the "30%" represents vertical. You can change these as needed when inserting your own image. I recommend going slowly - i.e. changing "30%" to "35%" */
+        object-fit: fill;
+        background-position: -30% 30%; 
+        background-image:url('https://64.media.tumblr.com/595163f21595e2fd7b880f5db95fa940/bcdc24194b7b8d56-41/s540x810/1ef65783e21fc3d49c8c7357f3a85ea1b8ed1293.jpg');        
+    }    
+    
+    /********************************
+    
+                CONTENT
+    
+    ********************************/    
+    
+    #content{
+        border-top:none;
+        border-left:2px white ridge;
+        border-bottom:2px white ridge;
+        border-right:2px white ridge;
+        background:white;
+        width:664px;
+        /* adjust height to your liking */
+        height:477px;
+        padding:15px;
+        float:right;
+    }
+    
+    /********************************
+    
+                 SIDEBAR
+    
+    ********************************/    
+    
+    #left{
+        width:190px;
+        float:left;
+        margin-top:-3px;
+        background:white;
+        padding:5px;
+        border-left:2px white ridge;
+        border-bottom:2px white ridge;
+        /* adjust height to your liking */
+        height:100%;
+    }
+        
+    
+    {CustomCss}
+    </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <!-- header, edit inbetween -->
+                <div style="height:90px;">
+                    <div style="background:linear-gradient(to right, white 50%, transparent);width:620px;position:absolute;height:250px;border-top-left-radius:30px;border-top-right-radius:30px;">
+                        <!-- this is the part that creates the header effect. You don't have to, but can replace this with some text that will go next to the header image -->
+                    </div>
+                </div>
+                <!-- header end, edit inbetween -->
+            </div>
+            
+
+                    <div id="left">
+                    <!-- sidebar, edit inbetween -->
+                    
+                        <div style="padding:5px;margin:15px 0 15px 0;text-align:center;background:#fff2b9;color:#ff9c28;">Sitely</div>
+                            <a href="/">Link one</a>
+                            <br><a href="/">Link two</a>
+                            <br><a href="/">Link three</a>
+                            <br><a href="/">Link four</a>
+                    
+                    
+                        <div style="padding:5px;margin:15px 0 15px 0;text-align:center;background:#fff2b9;color:#ff9c28;">Personal</div>
+                            <a href="/">Link one</a>
+                            <br><a href="/">Link two</a>
+                            <br><a href="/">Link three</a>
+                            <br><a href="/">Link four</a>
+                    
+                        <div style="padding:5px;margin:15px 0 15px 0;text-align:center;background:#fff2b9;color:#ff9c28;">Offsite</div>
+                            <a href="/">Link one</a>
+                            <br><a href="/">Link two</a>
+                            <br><a href="/">Link three</a>
+                            <br><a href="/">Link four</a> 
+                        
+                    <!-- end sidebar, edit inbetween -->
+                    </div>
+                        
+            <div id="content">
+                <!-- content, edit inbetween -->
+                <div style="padding:5px;margin:0 0 15px 0;text-align:center;background:#fff2b9;color:#ff9c28;font-weight:bold;">My Website!</div>
+            
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="https://64.media.tumblr.com/49b338ff1d5b74b64631c150d3a2b21b/8929a83ea82a869c-6e/s1280x1920/302e8c925f9895a8c62cb92c15e7aee00a503727.gif" style="width:260px;display:block;">
+                                </td>
+                                <td>
+                                    This is a live preview for the Neocities template <i>Dandelion</i>! It comes with a sidebar for links / images / whatever you'd like, and a header image that can be easily adjusted to your needs without editing the image itself. 
+                                
+                                    <p><i>Dandelion</i> was created 4/28/2023 and last edited 4/28/2023.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                    If you want to use this template as a design across all pages, consider using iframes for parts like the sidebar, so that the website can be easily updated all at once.
+                
+                    <p>You can install this template for your own website by clicking 『 <a href="/" style="font-weight:bold;" target="_blank">here</a> 』
+                    <br>You will find the code has all the information you may need to help get started, and includes useful resources!
+                
+                    <p>Thank you for viewing and using <i>Dandelion</i>! ( “・ω・゛)
+                <!-- content end, edit inbetween -->
+            </div>
+            
+        </div>
+    </body>
+</html>      
