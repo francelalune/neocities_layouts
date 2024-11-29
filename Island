@@ -1,0 +1,263 @@
+    <!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8" />
+
+    <title>Island Template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="shortcut icon" href="/">
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="//glen-npf-2020.glitch.me/npf-override.css" rel="stylesheet">
+    <script src="//glen-npf-2020.glitch.me/npf-evenize.js"></script>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+
+
+    <style type="text/css">
+    
+    body{
+        overflow-y:hidden;
+        font-family:ms gothic;
+        color:black;
+        font-size:16px;
+        background-image:url('https://64.media.tumblr.com/9c6669eba2a2baa025a9e87046d2c06f/tumblr_nk03vgtl9l1u289dqo3_250.png');
+    }    
+    /* . . . . . . . . . . . . . . . */ 
+    a{
+        color:blue;
+        text-decoration:dotted underline;
+    }
+    a:hover{
+        color:red;
+    }
+    
+    /* . . . . . . . . . . . . . . . */            
+
+    ::selection{ 
+        color:white;
+        background-color:blue;
+    }    
+
+    /* . . . . . . . . . . . . . . . */                
+
+    @font-face {
+        font-family: 'Dancing';
+        src:url(https://files.catbox.moe/e7t1ga.ttf);
+    }    
+    
+    
+    /*********************************
+    
+            Container + Header 
+    
+    *********************************/    
+    
+    #container{
+        width:805px;
+        height:580px;
+        margin-top:10px;
+        position:absolute;
+        left: 50%;
+        z-index:1;
+        background:white;
+        transform: translateX(-50%);
+        border:5px white ridge;
+    }    
+    
+    /* . . . . . . . . . . . . . . . */  
+    
+    #header-content-container{
+        float:right;
+        width:600px;
+        border-top:none;
+        border-right:none;
+        border-bottom:3px white ridge;
+        border-left:5px white ridge;
+        height:100%;
+    }
+    
+    /* . . . . . . . . . . . . . . . */  
+    
+    #header{
+        width:100%;
+        height:160px;
+        object-fit: fill;
+    }
+
+    /* . . . . . . . . . . . . . . . */  
+    
+    #sidebar{
+        float:left;
+        width:197px;
+        position:absolute;
+        height:100%;        
+    }
+    
+
+    /*********************************
+        
+                Content
+    
+    *********************************/
+    
+    #wrapper{
+        float:left;
+        overflow-y:auto;
+        width:100%;
+        height:413px;
+        margin-top:5px;
+    }
+    
+    #main{
+        border:4px white ridge;
+        width:525px;
+        margin-left:25px;
+        height:345px;
+        padding:10px;
+        margin-top:20px;
+    }
+
+
+    {CustomCss}
+    </style>
+    </head>
+    <body>
+    
+        <div id="container">
+            <div id="header-content-container">
+                <div id="header" style="background-position: 10% 60%; 
+        background-image:url('https://64.media.tumblr.com/7042e898a5e67aa508810de4e7173a44/57e52166fe56d799-92/s1280x1920/b0f2a90c0c957cea45071fe894e347ffd21d9a1b.jpg');">
+                    <div style="height:123px;padding:5px;background:linear-gradient(to right, white 25%, transparent);width:100%;">
+                        <div style="border-radius:10px;position:absolute;margin-top:10px;background-image:url('https://64.media.tumblr.com/ce79209ab033310febc02f72c5e9f21b/tumblr_orromsPZrk1udszxdo1_1280.png');background-size: 100% 95px;background-repeat: no-repeat;background-position: center;z-index:1;margin-left:10px;">
+                            <div style="margin-left:45px;"><a data-toggle="tooltip" title="Refresh?" href="/" style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:45px;font-family:dancing;text-decoration:none;">My Site</a></div>
+                            
+                            <div style="margin-left:10px;margin-top:-10px;"><text style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:35px;">By Windchime</div>
+                        </div>
+                    </div>
+                    
+                    <div style="border-bottom:3px white ridge;border-top:3px white ridge;background:white;">
+                        <center><table style="border-collapse: collapse;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding: 0;margin: 0;border-right:3px white ridge;width:74%;">
+                                        <div style="padding:1px;">
+                                            <marquee>Welcome to my website!</marquee>
+                                        </div>
+                                    </td>
+                                    <td style="padding-left: 14px;margin: 0;text-align:center;">
+                                        <div id="MyClockDisplay" class="clock" onload="showTime()" style="font-size: 20px;letter-spacing: 2px;text-align:center;"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </center>
+                    </div>
+                    
+                </div>
+                
+                <div id="wrapper">
+                    <div id="main">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="https://64.media.tumblr.com/f0cb2c60692856e3904144e0d891a7a4/c493acba99490ce3-ed/s640x960/9e19b5c261cf97df7742e2f41759d38ebf0c0983.png" style="width:200px;">
+                                    </td>
+                                    
+                                    <td>
+                                        This template is called Island, and was created by <a href="https://windchime.neocities.org/">Windchime</a> on 11/29/2024. The theme comes with a header, website logo and sidebar area. The sidebar could have links to areas on your website, or could have your favorite images - there's a lot of room for ideas.
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="text-indent: 30px;">The website logo comes with a background image already for you to replace. This way you can overlay your website name on the image. You could replace the text entirely in case you have your own logo already created, or you can remove the logo entirely and add something else.
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>Installation!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            
+                        <div id="sidebar">
+                <div style="background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);border:2px ridge white;border-top:none;text-align:center;color:#8bb8d2;font-weight:bold;font-size:21px;width:202px;border-right:none;border-left:none;"><div style="font-family:times;letter-spacing:.5px">Section 1</div></div>
+            
+                <div style="padding:5px;">
+                    <div style="background:#e3f5ff">Link one</div>
+                    Link two
+                    <div style="background:#e3f5ff">Link three</div>
+                    Link four
+                </div>
+                
+                <div style="background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);border:2px ridge white;border-top:none;text-align:center;color:#8bb8d2;font-weight:bold;font-size:21px;width:202px;border-right:none;border-left:none;"><div style="font-family:times;letter-spacing:.5px">Section 2</div></div>
+            
+                <div style="padding:5px;">
+                    <div style="background:#e3f5ff">Link one</div>
+                    Link two
+                    <div style="background:#e3f5ff">Link three</div>
+                    Link four
+                </div>
+                
+                <div style="background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);border:2px ridge white;border-top:none;text-align:center;color:#8bb8d2;font-weight:bold;font-size:21px;width:202px;border-right:none;border-left:none;"><div style="font-family:times;letter-spacing:.5px">Section 3</div></div>
+            
+                <div style="padding:5px;">
+                    <div style="background:#e3f5ff">Link one</div>
+                    Link two
+                    <div style="background:#e3f5ff">Link three</div>
+                    Link four
+                </div>
+                
+                <div style="background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);border:2px ridge white;border-top:none;text-align:center;color:#8bb8d2;font-weight:bold;font-size:21px;width:202px;border-right:none;border-left:none;"><div style="font-family:times;letter-spacing:.5px">Section 4</div></div>
+            
+                <div style="padding:5px;">
+                    <div style="background:#e3f5ff">Link one</div>
+                    Link two
+                    <div style="background:#e3f5ff">Link three</div>
+                    Link four
+                </div>
+                
+                <div style="background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);border:2px ridge white;border-top:none;text-align:center;color:#8bb8d2;font-weight:bold;font-size:21px;width:202px;border-right:none;border-left:none;"><div style="font-family:times;letter-spacing:.5px">Section 5</div></div>
+            
+                <div style="padding:5px;">
+                    <div style="background:#e3f5ff">Link one</div>
+                    Link two
+                    <div style="background:#e3f5ff">Link three</div>
+                    Link four
+                </div>
+            </div>
+            
+        </div>
+        
+<script type="text/javascript">function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();</script>     
+    </body>
+    </html>     
