@@ -175,7 +175,7 @@
                         </table>
                         <div style="text-indent: 30px;">The website logo comes with a background image already for you to replace. This way you can overlay your website name on the image. You could replace the text entirely in case you have your own logo already created, or you can remove the logo entirely and add something else.
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            <p>Installation!</p>
+                            <p><a href="https://github.com/francelalune/neocities_layouts/blob/main/Island">Installation!</a></p>
                         </div>
                     </div>
                 </div>
@@ -258,6 +258,9 @@
     
 }
 
-showTime();</script>     
+showTime();</script> 
+
+  <!--  <img src="https://64.media.tumblr.com/f73e7ff0f5da44a89c8b7bc4944988b4/tumblr_o89ybuqLmx1v9twgko1_250.gif" style="position:fixed;left:165px;bottom:0px;z-index:0;">-->
+    
     </body>
     </html>     
