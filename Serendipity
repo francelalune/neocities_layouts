@@ -44,6 +44,14 @@
     --> 
     <link rel="shortcut icon" href="https://64.media.tumblr.com/6cd384113306083a93414045783c891d/ba5effec99382867-22/s250x400/116477bf39060abe1494dda8bab5458616247beb.png">
     
+    <title>Serendipity Template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    
     <style type="text/css">
 
     /******************************
@@ -184,7 +192,7 @@
                                                 <img src="https://64.media.tumblr.com/71bacd1a92270fafbfac40baaf3628ed/tumblr_pv2f0j67xf1urtrz9o2_r1_250.png" style="width:125px;">
                                             </td>
                                             <td style="text-indent: 20px">
-                                                This template is called Serendipity, and was created by <a href="https://windchime.neocities.org/">Windchime</a> on 12.1.2024. The theme comes with a header, website logo and four links. It would look great for a simple website. The link area could also be edited to be a marquee instead, and contain your updates, or buttons. <a href="">Installation!</a>
+                                                This template is called Serendipity, and was created by <a href="https://windchime.neocities.org/">Windchime</a> on 12.1.2024. The theme comes with a header, website logo and four links. It would look great for a simple website. The link area could also be edited to be a marquee instead, and contain your updates, or buttons. <a href="https://github.com/francelalune/neocities_layouts/blob/main/Serendipity">Installation!</a>
                                             </td>
                                         </tr>
                                     </tbody>
