@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8" />
+    <!--
+    
+    // "Serendipity" Neocities template created by Mochizuki Hajime.
+        // windchime.neocities.org for more and to support me!
+        
+        // windchime.neocities.org/ for free resources 
+            and further information to help to decorate your page.
+            
+    // Created 12.01.2024 and last edited 12.01.2024
+        
+
+         *  // Properties and what they mean //  *
+
+
+            // width: the width of an element.
+            // position: the positioning of the element. 
+                    ==> (w3schools.com/css/css_positioning.asp)
+            // border: the border around an element. 
+                    ==> (w3schools.com/css/css_border.asp)
+            // margin-top: the distance of an element from the top of the page.
+            // background-image: the background of an element.
+            // font-family: the font used on the page.
+                    ==> (https://www.w3schools.com/css/css_font.asp, custom fonts)
+            // font-size: size of the font on the page.
+            // text-decoration: the style of links / text.
+                    ==> (https://www.w3schools.com/cssref/pr_text_text-decoration.php)
+            // color: text color.
+            // height: the height of an element. 
+            // margin: the space around an element. 
+                    ==> 0 (top) 0 (right) 0 (bottom) 0 (left)
+            // text-align: specifies where the text is centered. 
+                    ==> left, center, right. Remove and text will justify.
+            // background: the background color of an element. 
+                    ==> Can specificy background-image or background-color
+            // padding: the space inside the element.     
+            // object-fit: how an element is resized in regards to its container
+                    ==> (https://www.w3schools.com/css/css3_object-fit.asp)
+            //    
+    
+    
+    --> 
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/6cd384113306083a93414045783c891d/ba5effec99382867-22/s250x400/116477bf39060abe1494dda8bab5458616247beb.png">
+    
+    <style type="text/css">
+
+    /******************************
+    
+              Essentials
+    
+    ******************************/
+
+    body{
+        font-family:ms gothic;
+        color:black;
+        font-size:16px;
+        background-image:url('https://64.media.tumblr.com/9c6669eba2a2baa025a9e87046d2c06f/tumblr_nk03vgtl9l1u289dqo3_250.png');
+    }
+    
+    a{
+        text-decoration:none;
+    }
+    
+    #container{
+        position:absolute;
+        width:700px;
+        left: 50%;
+        margin-top:5px;
+        transform: translateX(-50%);
+        padding-bottom:20px;
+    } 
+    
+    /* . . . . . . . . . . . . . . . . */    
+    
+    #header{
+        border:5px white ridge;
+        border-bottom:none;
+        /*background:#e1edff*/
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+        background:white;
+        background-size: cover;
+        object-fit: fill;
+        background-size: 100%;
+        background-position: 50% 35%; 
+        /*background-image:url('https://64.media.tumblr.com/f080e7fb4bd0113838da2a32ecaa2280/7e008ed7829d371b-c9/s500x750/d0d2ad7494d334e040a4b5b97e8ec477f006ebf0.png'); */
+        height:310px;
+    }    
+
+    /* . . . . . . . . . . . . . . . . */        
+    
+    #wrapper{
+        /*border-top:none;*/
+        border-bottom:5px white ridge;
+        border-right:5px white ridge;
+        border-top:5px white ridge;
+        border-left:5px white ridge;
+        background:white;
+        height:500px;
+        padding:10px;
+        /*original height was 690px*/
+    }    
+    
+    /* . . . . . . . . . . . . . . . . */        
+    
+    #content{
+        height:500px;
+        
+    }
+    
+        /* . . . . . . . . . . . . . . . */      
+    #header-links{
+        height:22px;
+        font-weight:bold;
+        font-family:times;
+        background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);
+        color:#8bb8d2;
+        letter-spacing:.5px;
+        padding:5px;
+    }
+    /* . . . . . . . . . . . . . . . */      
+    #header-links:hover{
+        color:{color:link button link hover};
+        background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);
+    }
+        
+    
+    
+    {CustomCss}
+    </style>
+    </head>
+    <body>    
+        <div id="container">
+            <div id="header">
+                <div style="border-radius:15px;height:310px;background-image:url('https://64.media.tumblr.com/7506818be86073524f994c0cb1dc2d5b/dfa56aa256aaeb29-00/s640x960/06f60d5426235f96fd881d75abb8187c39685efe.jpg');object-fit: fill;background-position: 90% 80%;background-size:100%;box-shadow: 0 0 10px 10px white inset;">
+                
+                    <div style="background:white;background:linear-gradient(to top, white 15%, transparent);width:99%;position:absolute;height:310px;border-top-left-radius:30px;border-top-right-radius:30px;">
+                            <div style="border-radius:10px;position:absolute;margin-top:60px;background-image:url('https://64.media.tumblr.com/ce79209ab033310febc02f72c5e9f21b/tumblr_orromsPZrk1udszxdo1_1280.png');background-size: 100% 95px;background-repeat: no-repeat;background-position: center;z-index:1;margin-left:30px;">
+                                <div style="margin-left:40px;"><a data-toggle="tooltip" title="Refresh?" href="/" style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:45px;font-family:dancing;text-decoration:none;">My Site</a></div>
+                            
+                                <div style="margin-left:10px;margin-top:-5px;"><text style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:35px;">By Windchime</div>
+                            </div>
+                            
+                        <div style="position:absolute;left:375px;margin-top:10px;">
+                            <img src="https://64.media.tumblr.com/95e8ef21f672b6f94c534a9b3ae43f5b/tumblr_nsujya3PtV1ren6s6o1_500.png" style="width:315px;">
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div style="border:3px white ridge;border-bottom:none;border-left:5px white ridge;border-right:5px white ridge;background:white;height:33px;">
+                
+                    <table style="border-collapse: collapse;">
+                        <tbody>
+                            <tr style="text-align:center;">
+                                <td style="width:250px;padding: 0;margin: 0;border-right:3px ridge white;">
+                                    <a href="/"><div id="header-links">Link 1</div></a>
+                                </td>
+                                <td style="width:250px;padding: 0;margin: 0;border-right:3px ridge white;">
+                                    <a href="/ask"><div id="header-links">Link 2</div></a>
+                                </td>
+                                <td style="width:250px;padding: 0;margin: 0;border-right:3px ridge white;">
+                                    <a href="/archive"><div id="header-links">Link 3</div></a>
+                                </td>
+                                <td style="width:250px;padding: 0;margin: 0;border-right:none;">
+                                    <a href="{text:link one url}"><div id="header-links">Link 4</div></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            
+            <div id="wrapper">
+                <div id="content">
+                    <div style="border:2px white ridge;">
+                        <div style="background-color:#eeeeee;color:#999999;font-weight:bold;padding:5px;border:2px dotted #eeeeee;">Section 1</div>
+                            <div style="padding:5px;text-indent: 20px">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="https://64.media.tumblr.com/71bacd1a92270fafbfac40baaf3628ed/tumblr_pv2f0j67xf1urtrz9o2_r1_250.png" style="width:125px;">
+                                            </td>
+                                            <td style="text-indent: 20px">
+                                                This template is called Serendipity, and was created by <a href="https://windchime.neocities.org/">Windchime</a> on 12.1.2024. The theme comes with a header, website logo and four links. It would look great for a simple website. The link area could also be edited to be a marquee instead, and contain your updates, or buttons. <a href="">Installation!</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+                    
+                    <div style="border:2px white ridge;margin:20px 0 10px 0">
+                        <div style="background-color:#eeeeee;color:#999999;font-weight:bold;padding:5px;border:2px dotted #eeeeee;">Section 2</div>
+                            <div style="padding:5px;text-indent: 20px">
+                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>     
+                                
+                                
+                            </div>
+                    </div>
+                    
+                    <div style="border:2px white ridge;margin:20px 0 10px 0">
+                        <div style="background-color:#eeeeee;color:#999999;font-weight:bold;padding:5px;border:2px dotted #eeeeee;">Section 3</div>
+                            <div style="padding:5px;text-indent: 20px">
+                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>     
+                                
+                                
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>    
+        
+    </body>
+    </html>    
