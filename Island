@@ -1,6 +1,48 @@
     <!DOCTYPE HTML>
     <head>
     <meta charset="utf-8" />
+    
+    <!--
+    
+    // "Island" Neocities template created by Mochizuki Hajime.
+        // windchime.neocities.org for more and to support me!
+        
+        // windchime.neocities.org/ for free resources 
+            and further information to help to decorate your page.
+            
+    // Created 11.29.2024 and last edited 12.01.2024
+        
+
+         *  // Properties and what they mean //  *
+
+
+            // width: the width of an element.
+            // position: the positioning of the element. 
+                    ==> (w3schools.com/css/css_positioning.asp)
+            // border: the border around an element. 
+                    ==> (w3schools.com/css/css_border.asp)
+            // margin-top: the distance of an element from the top of the page.
+            // background-image: the background of an element.
+            // font-family: the font used on the page.
+                    ==> (https://www.w3schools.com/css/css_font.asp, custom fonts)
+            // font-size: size of the font on the page.
+            // text-decoration: the style of links / text.
+                    ==> (https://www.w3schools.com/cssref/pr_text_text-decoration.php)
+            // color: text color.
+            // height: the height of an element. 
+            // margin: the space around an element. 
+                    ==> 0 (top) 0 (right) 0 (bottom) 0 (left)
+            // text-align: specifies where the text is centered. 
+                    ==> left, center, right. Remove and text will justify.
+            // background: the background color of an element. 
+                    ==> Can specificy background-image or background-color
+            // padding: the space inside the element.     
+            // object-fit: how an element is resized in regards to its container
+                    ==> (https://www.w3schools.com/css/css3_object-fit.asp)
+            //    
+    
+    
+    -->    
 
     <title>Island Template</title>
     
@@ -8,9 +50,7 @@
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <link rel="shortcut icon" href="/">
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-    <link href="//glen-npf-2020.glitch.me/npf-override.css" rel="stylesheet">
-    <script src="//glen-npf-2020.glitch.me/npf-evenize.js"></script>    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
 
@@ -259,8 +299,6 @@
 }
 
 showTime();</script> 
-
-  <!--  <img src="https://64.media.tumblr.com/f73e7ff0f5da44a89c8b7bc4944988b4/tumblr_o89ybuqLmx1v9twgko1_250.gif" style="position:fixed;left:165px;bottom:0px;z-index:0;">-->
     
     </body>
     </html>     
