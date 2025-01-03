@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8" />
+    <!--
+    
+    // "Fantasy" Neocities template created by Mochizuki Hajime.
+        // windchime.neocities.org for more and to support me!
+        
+        // windchime.neocities.org/ for free resources 
+            and further information to help to decorate your page.
+            
+    // Created 1.01.2025 and last edited 1.01.2025
+        
+
+         *  // Properties and what they mean //  *
+
+
+            // width: the width of an element.
+            // position: the positioning of the element. 
+                    ==> (w3schools.com/css/css_positioning.asp)
+            // border: the border around an element. 
+                    ==> (w3schools.com/css/css_border.asp)
+            // margin-top: the distance of an element from the top of the page.
+            // background-image: the background of an element.
+            // font-family: the font used on the page.
+                    ==> (https://www.w3schools.com/css/css_font.asp, custom fonts)
+            // font-size: size of the font on the page.
+            // text-decoration: the style of links / text.
+                    ==> (https://www.w3schools.com/cssref/pr_text_text-decoration.php)
+            // color: text color.
+            // height: the height of an element. 
+            // margin: the space around an element. 
+                    ==> 0 (top) 0 (right) 0 (bottom) 0 (left)
+            // text-align: specifies where the text is centered. 
+                    ==> left, center, right. Remove and text will justify.
+            // background: the background color of an element. 
+                    ==> Can specificy background-image or background-color
+            // padding: the space inside the element.     
+            // object-fit: how an element is resized in regards to its container
+                    ==> (https://www.w3schools.com/css/css3_object-fit.asp)
+            //    
+    
+    
+    --> 
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/6cd384113306083a93414045783c891d/ba5effec99382867-22/s250x400/116477bf39060abe1494dda8bab5458616247beb.png">
+    
+    <title>Fantasy Template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    
+    <style type="text/css">
+
+    /******************************
+    
+              Essentials
+    
+    ******************************/
+
+    body{
+        font-family:ms gothic;
+        color:black;
+        font-size:16px;
+        background-image:url('https://64.media.tumblr.com/9c6669eba2a2baa025a9e87046d2c06f/tumblr_nk03vgtl9l1u289dqo3_250.png');
+    }
+    
+    a{
+        color:blue;
+        text-decoration:none;
+    }
+    
+    #container{
+        position:absolute;
+        width:700px;
+        left: 50%;
+        margin-top:5px;
+        transform: translateX(-50%);
+        padding-bottom:20px;
+    } 
+    
+    /* . . . . . . . . . . . . . . . . */    
+    
+    #header{
+        border:5px white ridge;
+        border-bottom:none;
+        /*background:#e1edff*/
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+        background:white;
+        background-size: cover;
+        object-fit: fill;
+        background-size: 100%;
+        background-position: 50% 35%; 
+        
+        /*background-image:url('https://64.media.tumblr.com/f080e7fb4bd0113838da2a32ecaa2280/7e008ed7829d371b-c9/s500x750/d0d2ad7494d334e040a4b5b97e8ec477f006ebf0.png'); */
+    }    
+
+    /* . . . . . . . . . . . . . . . . */        
+    
+    #wrapper{
+        /*border-top:none;*/
+        border-bottom:5px white ridge;
+        border-right:5px white ridge;
+        border-top:5px white ridge;
+        border-left:5px white ridge;
+        background:white;
+        height:500px;
+        padding:10px;
+        /*original height was 690px*/
+    }    
+    
+    /* . . . . . . . . . . . . . . . . */        
+    
+    #content{
+        height:500px;
+        
+    }
+    
+        /* . . . . . . . . . . . . . . . */      
+    #header-links{
+        height:22px;
+        font-weight:bold;
+        font-family:times;
+        background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);
+        color:#8bb8d2;
+        letter-spacing:.5px;
+        padding:5px;
+    }
+    /* . . . . . . . . . . . . . . . */      
+    #header-links:hover{
+        color:{color:link button link hover};
+        background:linear-gradient(to bottom, #e3f5ff 15%, #8ecef2);
+    }
+        
+    
+    
+    {CustomCss}
+    </style>
+    </head>
+    <body>    
+        <div id="container">
+            <div id="header">
+                <div style="border-radius:15px;height:250px;background-image:url('https://64.media.tumblr.com/168a79b2f80fa3bfc2df147311b68cb9/572ff66d481c63bc-0a/s1280x1920/f4d1f90181ed7186ad2dee46841f49be24d6ea51.png');object-fit: fill;background-position: 90% 30%;background-size:100%;box-shadow: 0 0 10px 10px white inset;">
+                
+                    <div style="background:white;background:linear-gradient(to top, white 5%, transparent);width:99%;position:absolute;height:250px;border-top-left-radius:30px;border-top-right-radius:30px;">
+                            <div style="border-radius:10px;position:absolute;margin-top:60px;background-image:url('https://64.media.tumblr.com/ce79209ab033310febc02f72c5e9f21b/tumblr_orromsPZrk1udszxdo1_1280.png');background-size: 100% 95px;background-repeat: no-repeat;background-position: center;z-index:1;margin-left:30px;">
+                                <div style="margin-left:40px;"><a data-toggle="tooltip" title="Refresh?" href="/" style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:45px;font-family:dancing;text-decoration:none;">My Site</a></div>
+                            
+                                <div style="margin-left:10px;margin-top:-5px;"><text style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:35px;">By Windchime</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="wrapper">
+                <div id="content">
+                
+                    <div id="section-one" style="height:170px;">
+                        <div style="border:2px white ridge;width:330px;margin-left:330px;float:left;height:160px;">
+                        
+                            <div style="background-color:#eeeeee;color:#999999;font-weight:bold;padding:5px;border:2px dotted #eeeeee;text-align:center;">Links</div>
+                            <div style="padding:5px;text-align:center;">
+                                <p><a href="/">splash</a>. <a href="/">newsletter</a>. <a href="/">site archive</a>. <a href="/">profile</a>. <a href="/">88x31 buttons</a>. </p>
+                                <p><a href="/">photo book</a>. <a href="/">illustration</a>. <a href="/">graphics</a>. <a href="/">guestbook</a>. <a href="/">extra link</a>.</p>
+                            </div>
+                        </div>
+                    
+                    <div style="width:305px;float:left;padding:5px;margin-top:1px;max-height:150px;position:absolute;text-indent:20px;">
+                        This Neocities template is called Fantasy and was created 1/1/2025. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                        </div>
+                    </div>
+                    
+                    <div id="section-two" style="margin:10px 0 35px 0;padding:5px;text-indent:20px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
+                    </div>
+                    
+                    <div style="border:2px white ridge;">
+                        
+                            <div style="background-color:#eeeeee;color:#999999;font-weight:bold;padding:5px;border:2px dotted #eeeeee;text-align:center;">Newsletter</div>
+                            <div style="padding:5px;">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="https://64.media.tumblr.com/d2ebc5e72e2dbfc836a75b5d1b253db3/cddcebf4d70b2e63-d4/s1280x1920/06b4dbad30b4b06dfe1c96b67704c912fe58ac39.png" style="width:150px;padding-right:20px;">
+                                            </td>
+                                            <td>
+                                                You could put something long here, like website updates, additional information, anything you'd like.
+                                                
+                                                <center><p><img src="https://64.media.tumblr.com/79835392a8986d9f4253fb8561edb4ee/fcab8abab04acc11-1f/s100x200/73fa5565cd0c1567484fbda70a9010d9f570687c.gif"></p></center>
+                                                
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    
+                    
+            </div> 
+        </div>    
+        
+    </body>
+    </html>    
