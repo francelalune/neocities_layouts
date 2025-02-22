@@ -1,0 +1,269 @@
+    <!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8" />
+    
+    <!--
+    
+    // "Ripples" Neocities template created by Mochizuki Hajime.
+        // windchime.neocities.org for more and to support me!
+        
+        // windchime.neocities.org/ for free resources 
+            and further information to help to decorate your page.
+            
+    // Created 2.22.25 and last edited 2.22.2025
+        
+
+         *  // Properties and what they mean //  *
+
+
+            // width: the width of an element.
+            // position: the positioning of the element. 
+                    ==> (w3schools.com/css/css_positioning.asp)
+            // border: the border around an element. 
+                    ==> (w3schools.com/css/css_border.asp)
+            // margin-top: the distance of an element from the top of the page.
+            // background-image: the background of an element.
+            // font-family: the font used on the page.
+                    ==> (https://www.w3schools.com/css/css_font.asp, custom fonts)
+            // font-size: size of the font on the page.
+            // text-decoration: the style of links / text.
+                    ==> (https://www.w3schools.com/cssref/pr_text_text-decoration.php)
+            // color: text color.
+            // height: the height of an element. 
+            // margin: the space around an element. 
+                    ==> 0 (top) 0 (right) 0 (bottom) 0 (left)
+            // text-align: specifies where the text is centered. 
+                    ==> left, center, right. Remove and text will justify.
+            // background: the background color of an element. 
+                    ==> Can specificy background-image or background-color
+            // padding: the space inside the element.     
+            // object-fit: how an element is resized in regards to its container
+                    ==> (https://www.w3schools.com/css/css3_object-fit.asp)
+            //    
+    
+    
+    -->    
+
+    <title>Island Template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="shortcut icon" href="/">
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+
+
+    <style type="text/css">
+    
+    body{
+        overflow-y:hidden;
+        font-family:ms gothic;
+        color:black;
+        font-size:16px;
+        background-image:url('https://64.media.tumblr.com/9c6669eba2a2baa025a9e87046d2c06f/tumblr_nk03vgtl9l1u289dqo3_250.png');
+    }    
+    /* . . . . . . . . . . . . . . . */ 
+    a{
+        color:blue;
+        text-decoration:dotted underline;
+    }
+    a:hover{
+        color:red;
+    }
+    
+    /* . . . . . . . . . . . . . . . */            
+
+    ::selection{ 
+        color:white;
+        background-color:blue;
+    }    
+
+    /* . . . . . . . . . . . . . . . */                
+
+    @font-face {
+        font-family: 'Dancing';
+        src:url(https://files.catbox.moe/e7t1ga.ttf);
+    }    
+    
+    
+    /*********************************
+    
+            Container + Header 
+    
+    *********************************/    
+    
+    #container{
+        width:805px;
+        height:580px;
+        margin-top:10px;
+        position:absolute;
+        left: 50%;
+        z-index:1;
+        background:white;
+        transform: translateX(-50%);
+        border:5px white ridge;
+    }    
+    
+    /* . . . . . . . . . . . . . . . */  
+    
+    #header-content-container{
+        float:right;
+        width:600px;
+        border-top:none;
+        border-right:none;
+        border-bottom:3px white ridge;
+        border-left:5px white ridge;
+        height:100%;
+    }
+    
+    /* . . . . . . . . . . . . . . . */  
+    
+    #header{
+        width:100%;
+        height:160px;
+        object-fit: fill;
+    }
+
+    /* . . . . . . . . . . . . . . . */  
+    
+    #sidebar{
+        float:left;
+        width:197px;
+        position:absolute;
+        height:100%;        
+    }
+    
+
+    /*********************************
+        
+                Content
+    
+    *********************************/
+    
+    #wrapper{
+        float:left;
+        overflow-y:auto;
+        width:100%;
+        height:100%;
+    }
+    
+    #main{
+        width:525px;
+        margin-left:35px;
+        margin-top:20px;
+    }
+
+
+    {CustomCss}
+    </style>
+    </head>
+    <body>
+    
+        <div id="container">
+            <div id="header-content-container">
+                
+                
+                <div id="wrapper">
+                    <div id="main">
+                    
+                    <div style="border:3px white ridge;margin-top:25px;">
+                        <div style="border-bottom:3px white ridge;background:white;">
+                            <center><table style="border-collapse: collapse;">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding: 0;margin: 0;border-right:3px white ridge;width:71%;">
+                                            <div style="padding:1px;">
+                                                <marquee>Welcome to my website!</marquee>
+                                            </div>
+                                        </td>
+                                        <td style="padding-left: 14px;margin: 0;text-align:center;">
+                                            <div id="MyClockDisplay" class="clock" onload="showTime()" style="font-size: 20px;letter-spacing: 2px;text-align:center;"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table></center>
+                        </div>
+                    
+                        <div style="padding:5px;"> 
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="https://64.media.tumblr.com/7d49389ef255b168cd6302198b9286be/e8b465128ceba4bd-df/s500x750/1f6add4141d69db1d9d8af43f359ca42aedfeb54.png" style="width:200px;">
+                                    </td>
+                                    
+                                    <td>
+                                        This template is called Ripples, and was created by <a href="https://windchime.neocities.org/">Windchime</a> on 2.22.25. The theme comes with website logo, container and sidebar area. 
+                                        
+                                        <p>The sidebar could have your favorite images, or whatever you want there - there's a lot of room for ideas.</p>
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                        </div>
+                        
+                    </div>
+                        
+                        <div style="padding:5px;border:4px white ridge;margin-top:25px;">
+                            <img src="https://64.media.tumblr.com/ca710fa2129f6fcbd9822c487d268371/e5f8f9bcaedf121d-ca/s640x960/4a4db8017c3116963986438b734b45747852b868.pnj" style="width:100%;display:block;">
+                            
+                            <center><p><a href="/">splash</a>. <a href="/">newsletter</a>. <a href="/">site archive</a>. <a href="/">profile</a>. <a href="/">88x31 buttons</a>. </p>
+                                <p><a href="/">photo book</a>. <a href="/">illustration</a>. <a href="/">graphics</a>. <a href="/">guestbook</a>. <a href="/">extra link</a>.</p></center>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>   
+            
+            <div id="sidebar" style="background-position: 10% 60%; 
+        background-image:url('https://64.media.tumblr.com/9d45116ac2d2fde8cbc2fd7833a27dd8/tumblr_neyyt5EibO1thynt0o1_640.jpg');">
+                 
+                <div style="height:98.5%;padding:5px;background:linear-gradient(to bottom, white 10%, transparent);width:96%">
+                        <div style="border-radius:10px;position:absolute;margin-top:15px;background-image:url('https://64.media.tumblr.com/ce79209ab033310febc02f72c5e9f21b/tumblr_orromsPZrk1udszxdo1_1280.png');background-size: 100% 80px;background-repeat: no-repeat;background-position: center;z-index:1;margin-left:20px;">
+                            <div style="margin-left:20px;"><a data-toggle="tooltip" title="Refresh?" href="/" style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:40px;font-family:dancing;text-decoration:none;">My Site</a></div>
+                            
+                            <div style="margin-left:10px;margin-top:-5px;"><text style="text-shadow: 1px 1px 3px black, 0 0 1em white, 0 0 0.2em white;color:white;font-size:30px;">Name here</div>
+                        </div>
+                        
+                </div>     
+            </div>
+            
+        </div>
+        
+<script type="text/javascript">function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();</script>         
+
+    
+    </body>
+    </html>     
